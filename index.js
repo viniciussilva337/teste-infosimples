@@ -1,32 +1,27 @@
-const request = require ('request')
-const cheerio = require ('cheerio')
+const cheerio  = require('cheerio')
+const express = require('express')
+const axios = require('axios')
+
+const url = 'https://storage.googleapis.com/infosimples-public/commercia/case/product.html'
 
 
-const fs = require('fs')
+async function getProducts() {
+    try {
 
-try {
+        const url = 'https://storage.googleapis.com/infosimples-public/commercia/case/product.html'
+        const { data } = await axios.get(url)
+        const $ = cheerio.load(data)
+        const response = {}
 
-    repostaFinal = {}
+        response['title'] = $('h2#product_title').text()
+        response['brand'] = $('div.brand').text()
 
-     categorias = []
-
-
-    const url = 'https://storage.googleapis.com/infosimples-public/commercia/case/product.html'
-    
-    request(url, function(error, response, body){
-        const parseHtml = cheerio.load(body)
-
-        repostaFinal['title'] = parseHtml('h2#product_title').text()
-        repostaFinal['brand'] = parseHtml('body > div.content > section > div > div.brand').text()
-        
-        const arraycat = repostaFinal['categories'] = parseHtml('nav').text()
-        
-        categorias.push(arraycat)
-        console.log(repostaFinal, categorias)
+        console.log(response)
 
         
-    })
-    
-} catch (error) {
-    console.log(error)
+    } catch (error) {
+        
+    }
 }
+
+getProducts()

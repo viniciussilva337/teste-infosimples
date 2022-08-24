@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
+    "nodemon": "^2.0.19",
     "request": "^2.88.2"
   }
 }

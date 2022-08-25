@@ -9,6 +9,8 @@ Esse projeto tem como  objetivo construir um programa que acessa e coleta dados 
 página:
 https://storage.googleapis.com/infosimples-public/commercia/case/product.html
 
+## Prévia do json retornado:
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/85956064/186548141-dc16543c-1ec2-462a-a792-13888fe471b4.jpeg" alt="Preview 1" height="450" />
 </p>

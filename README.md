@@ -10,7 +10,7 @@ página:
 https://storage.googleapis.com/infosimples-public/commercia/case/product.html
 
 <p align="center">
-  <img src="https://github.com/carvalhoviniciusluiz/instagram-clone/blob/master/.github/instagram-clone.gif?raw=true" alt="Preview 1" height="450" />
+  <img src="https://user-images.githubusercontent.com/85956064/186548141-dc16543c-1ec2-462a-a792-13888fe471b4.jpeg" alt="Preview 1" height="450" />
 </p>
 
 ## :loop: How it works
@@ -30,10 +30,9 @@ Now you can run the project from the command
 yarn start
 
 # or
-# npm run start
+# npm start
 ```
 
-You can use your mobile device to run the application, for that follow the [expo documentation](https://expo.io/).
 
 ## :memo: License
 

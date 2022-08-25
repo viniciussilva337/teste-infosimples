@@ -33,9 +33,4 @@ yarn start
 # npm start
 ```
 
-
-## :memo: License
-
-This project is under the MIT license. See the [LICENSE](https://opensource.org/licenses/MIT) for more details.
-
 ---

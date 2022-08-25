@@ -3,13 +3,13 @@
 </h1>
 
 
-## :rocket: Sobre o projeto
+## :rocket: About the project
 
-Esse projeto tem como  objetivo construir um programa que acessa e coleta dados da seguinte
-página:
+This project aims to build a program that accesses and collects data in the following way:
+page:
 https://storage.googleapis.com/infosimples-public/commercia/case/product.html
 
-## Prévia do json retornado:
+## Returned json preview:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/85956064/186548141-dc16543c-1ec2-462a-a792-13888fe471b4.jpeg" alt="Preview 1" height="450" />
